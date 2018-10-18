@@ -1,0 +1,376 @@
+@media screen and (min-width:320px) and (max-width:479px) {
+    .logo_block
+    {
+        width: auto;
+        max-width: 100px;
+        min-height: 50px;
+        padding-top: 8px;
+    }
+    .logo_block img
+    {
+        max-width: 100px;
+        width: 100%;
+    }
+    .dash_menuicon {
+        margin-top: 12px;
+    }
+    .option-container
+    {
+        margin-top: 3px;
+    }
+    .menu_basic_block
+    {
+        width: 43px;
+    }
+    .massage_popbox {
+        right: -165px;
+    }
+    .notification_popbox {
+        right: -120px;
+    }
+    .notification_popbox:before {
+        right: 132px;
+    }
+    .massage_popbox:before {
+        right: 175px;
+    }
+    .menu_basic_popup {
+        width: 300px;
+    }
+    .login_form
+    {
+        width: 96%;
+        left: 2%;
+        max-width: 470px;
+    }
+    .top_navigationbar
+    {
+        padding-left: 90px;
+    }
+    .user-info
+    {
+        padding-left: 10px;
+    }
+    .brics_res_used
+    {
+        margin-bottom: 12px;
+        padding: 0px;
+    }
+    .res_pad0
+    {
+        padding: 0px;
+    }
+    .white_dash_head_txt
+    {
+        padding: 5px 8px;
+    }
+    .single_viewall_btn
+    {
+        position: absolute;
+        right: 10px;
+    }
+    .name_show
+    {
+        max-width: 100px;
+        overflow: hidden;
+        display: inline-block;
+        text-align: right;
+        height: 30px;
+    }
+    .datagrid_search_box
+    {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        float: right;
+    }
+    .grid_filter_box
+    {
+        width: 100%;
+        display: inline-block;
+    }
+    .scroll_table
+    {
+        margin: 75px 0px !important;
+    }
+}
+@media screen and (min-width:320px) and (max-width:373px) {
+    .pagination > li > a, .pagination > li > span {
+        padding: 6px 8px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px) {
+    .brics_res_used
+    {
+        width: 50%;
+        margin-bottom: 20px;
+        float: left;
+    }
+    .top_navigationbar
+    {
+        padding-left: 150px;
+    }
+    .datagrid_search_box
+    {
+        float: right;
+    }
+    .grid_filter_box
+    {
+        display: inline-block;
+    }
+    .scroll_table
+    {
+        margin: 75px 0px !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .action-btn {
+        padding: 5px 3px;
+    }
+    .white_icons_blk
+    {
+        line-height: 60px;
+        width: 60px;
+        height: 60px;
+        top: -20px;
+    }
+    .white_icon_withtxt
+    {
+        padding-left: 60px;
+    }
+    .white_brics
+    {
+        padding: 10px;
+    }
+    .logo_block
+    {
+        width: 200px;
+    }
+    .datagrid_search_box
+    {
+        width: 250px;
+        display: inline-block;
+        float: right;
+    }
+    .grid_filter_box
+    {
+        width: 150px;
+        display: inline-block;
+    }
+    .scroll_table
+    {
+        margin: 50px 0px !important;
+    }
+}
+@media (max-width: 767px) and (min-width: 320px)
+{
+    .grid-table tbody tr td.tab-grid:first-child {
+        border-top: 1px solid #ddd;
+    }
+    .grid-table {
+        border: 0;
+    }
+    .grid-table tbody tr {
+        margin-bottom: 15px;
+        float: left;
+        width: 100%;
+    }
+    .grid-table tbody tr td {
+        width: 100%;
+        padding-left: 40%;
+        display: inline-block;
+        text-align: left;
+        border-top: 0;
+        position: relative;
+        min-height: 35px;
+        line-height: 24px;
+    }
+    .grid-table tbody tr td:before {
+        position: absolute;
+        left: 8px;
+        top: 5px;
+        font-weight: 600;
+        color: #5a5c63;
+    }
+    .globe-header-tr
+    {
+        display: none;
+    }
+    .checkbox
+    {
+        text-align: left;
+    }
+    .col_select[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col1[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col2[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col3[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col4[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col5[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col6[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .col7[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .option_col[data-line]:before
+    {
+        content: attr(data-line);
+    }
+    .res_btn
+    {
+        padding: 5px !important;
+    }
+    .grid_search_box
+    {
+        width: 100%;
+    }
+    .grid_btnbox {
+        position: absolute;
+        width: 180px;
+        top: -60px;
+        left: -10px;
+    }
+    .head_txt
+    {
+        padding: 0px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .two_boxrow {
+        margin: 0px;
+    }
+    .box_inner
+    {
+        padding: 10px 5px;
+    }
+    .form_txt
+    {
+        margin-bottom: 5px;
+        margin-top: 8px;
+    }
+    .form-row
+    {
+        margin-bottom: 0px;
+    }
+    .left_blanksingle_row
+    {
+        margin-top: 15px;
+    }
+    .logo_block
+    {
+        width: 90px;
+    }
+    .small_aside_icon
+    {
+        display: block;
+        width: auto !important;
+        margin: 0px auto;
+    }
+    .big_aside_icon
+    {
+        display: none;
+    }
+}
+@media (max-width: 1023px) and (min-width: 320px) {
+
+    .option-container {
+        margin-right: 5px;
+    }
+    .dash_menuicon {
+        display: block;
+    }
+    .dash_sidemenu {
+        left: -300px;
+        top: 0;
+        height: 100vh;
+        z-index: 111;
+    }
+    .box_containner
+    {
+        margin: 80px 5px 15px 5px;
+    }
+    .dash_sidemenu_show
+    {
+        left: 0px;
+    }
+    .shift_iconbox
+    {
+        display: none;
+    }
+    .logo_block
+    {
+        position: fixed;
+        left: 0px;
+    }
+    .dash_menu_ul
+    {
+        max-height: calc(100vh - 70px);
+    }
+    .table_main_containner
+    {
+        overflow: auto;
+    }
+    .scroll_table
+    {
+        min-width: 900px;
+    }
+    .top_grid_filter
+    {
+        position: absolute;
+        width: 98%;
+    }
+    .bottom_grid_pagination
+    {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1199px) {
+    .box_containner
+    {
+        margin: 80px 5px 0 205px;
+    }
+    .dash_sidemenu
+    {
+        width: 200px;
+    }
+    .white_icons_blk
+    {
+        line-height: 60px;
+        width: 60px;
+        height: 60px;
+        top: -20px;
+    }
+    .white_icon_withtxt
+    {
+        padding-left: 60px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1359px) {
+
+}
+@media screen and (min-width:1360px) and (max-width:1600px) {
+
+}

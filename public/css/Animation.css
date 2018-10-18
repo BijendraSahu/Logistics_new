@@ -1,0 +1,210 @@
+@-webkit-keyframes Globalloading-center-absolute
+{
+    100%
+    {
+        -webkit-transform: rotate(-45deg);
+    }
+}
+
+@keyframes loading-center-absolute
+{
+    100%
+    {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+}
+
+
+
+@-webkit-keyframes object_one
+{
+    25%
+    {
+        -webkit-transform: translate(0,-50px) rotate(-180deg);
+    }
+
+    100%
+    {
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+
+@keyframes object_one
+{
+    25%
+    {
+        transform: translate(0,-50px) rotate(-180deg);
+        -webkit-transform: translate(0,-50px) rotate(-180deg);
+    }
+
+    100%
+    {
+        transform: translate(0,0) rotate(-180deg);
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+
+
+@-webkit-keyframes object_two
+{
+    25%
+    {
+        -webkit-transform: translate(50px,0) rotate(-180deg);
+    }
+
+    100%
+    {
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+
+@keyframes object_two
+{
+    25%
+    {
+        transform: translate(50px,0) rotate(-180deg);
+        -webkit-transform: translate(50px,0) rotate(-180deg);
+    }
+
+    100%
+    {
+        transform: translate(0,0) rotate(-180deg);
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+
+@-webkit-keyframes object_three
+{
+    25%
+    {
+        -webkit-transform: translate(-50px,0) rotate(-180deg);
+    }
+
+    100%
+    {
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+
+@keyframes object_three
+{
+    25%
+    {
+        transform: translate(-50px,0) rotate(-180deg);
+        -webkit-transform: translate(-50px,0) rotate(-180deg);
+    }
+
+    100%
+    {
+        transform: translate(0,0) rotate(-180deg);
+        -webkit-transform: rtranslate(0,0) rotate(-180deg);
+    }
+}
+
+
+@-webkit-keyframes object_four
+{
+    25%
+    {
+        -webkit-transform: translate(0,50px) rotate(-180deg);
+    }
+
+    100%
+    {
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+
+@keyframes object_four
+{
+    25%
+    {
+        transform: translate(0,50px) rotate(-180deg);
+        -webkit-transform: translate(0,50px) rotate(-180deg);
+    }
+
+    100%
+    {
+        transform: translate(0,0) rotate(-180deg);
+        -webkit-transform: translate(0,0) rotate(-180deg);
+    }
+}
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*---Hear Like Unlike*/
+@keyframes pulse{
+    50%{
+        transform: scale(1.1);
+    }
+}
+@keyframes fly{
+    0%{
+        opacity:0; transform: translateY(-20px) rotateZ(15deg);
+    }
+    50%{
+        opacity:.75;
+        transform: scale(4) translateY(-30px) rotateZ(-15deg);
+    }
+    100%{
+        opacity:0;
+        transform: scale(4) translateY(-50px) rotateZ(15deg);
+    }
+}
+@keyframes break-left{
+    0%{
+        opacity:1;
+        transform: scale(3) rotateZ(0);
+    }
+    20%{
+        opacity:.5;
+        transform: scale(3) translateX(-10px) rotateZ(-20deg) translateY(0) ;
+    }
+    50%{
+        opacity:.5;
+        transform: scale(3) translateX(-10px) rotateZ(-20deg) translateY(0) ;
+    }
+    100%{
+        opacity:0;
+        transform: scale(3) translateX(-30px) rotateZ(-25deg) translateY(50px);
+
+    }
+}
+@keyframes break-right{
+    0%{
+        opacity:1;
+        transform: scale(3) rotateZ(0);
+    }
+    20%{
+        opacity:.5;
+        transform: scale(3) translateX(10px) rotateZ(20deg) translateY(0) ;
+    }
+    50%{
+        opacity:.5;
+        transform: scale(3) translateX(10px) rotateZ(20deg) translateY(0) ;
+    }
+    100%{
+        opacity:0;
+        transform: scale(3) translateX(30px) rotateZ(25deg) translateY(50px);
+    }
+}
+/*---Heart Like Unlike End*/

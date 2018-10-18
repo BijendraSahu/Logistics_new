@@ -1,0 +1,204 @@
+/***********Bijendra Sahu***************/
+
+/////////*Login/Reg/Profile*///////////////
+Login:
+http://18.188.188.62/Logistics/getlogin?mobile=9876543210&password=123
+
+Registration(Post Method Only use http://18.188.188.62/Logistics/getregister)
+http://18.188.188.62/Logistics/getregister?user_type=client&mobile=9876543211&password=123&profile_img=dsvsf.jpg
+
+Change Password
+http://18.188.188.62/Logistics/change_password?user_id=16&password=abc
+
+Forget Password
+http://18.188.188.62/Logistics/forgetp?contact=9876543210
+
+Profile Update(Post Method Only use http://18.188.188.62/Logistics/edit_profile)
+http://18.188.188.62/Logistics/edit_profile?user_id=16&name=abc&profile_img=fcdsh.jpg&password=123
+/////////*Login/Reg/Profile*///////////////
+
+
+/////////*Material///////////////
+Create Material
+http://18.188.188.62/Logistics/create_material?name=m1
+
+Get All Material
+http://18.188.188.62/Logistics/getallmaterials
+
+Get Material By Id
+http://18.188.188.62/Logistics/getmaterial?material_id=1
+
+Update Material
+http://18.188.188.62/Logistics/updatematerial?material_id=1&name=m1
+
+Delete Material
+http://18.188.188.62/Logistics/deletematerial?material_id=1
+
+/////////*Material///////////////
+
+/////////*Location///////////////
+Create location
+http://18.188.188.62/Logistics/create_location?type=Crusher&name=m1
+
+Get All location
+http://18.188.188.62/Logistics/getalllocation
+
+Get location By Id
+http://18.188.188.62/Logistics/getlocation?location_id=1
+
+Update location
+http://18.188.188.62/Logistics/updatelocation?location_id=1&type=Petrol&name=m1
+
+Delete location
+http://18.188.188.62/Logistics/deletelocation?location_id=1
+/////////*Location///////////////
+
+
+/////////*Material Type///////////////
+Create Material Type
+http://18.188.188.62/Logistics/create_material_type?type=m1&material_id=1
+
+Get All Material Type
+http://18.188.188.62/Logistics/getallmaterials_type
+
+Get Material Type By Id
+http://18.188.188.62/Logistics/getmaterial_type?material_type_id=1
+
+Update Material Type
+http://18.188.188.62/Logistics/updatematerial_type?material_type_id=1&type=m1&material_id=1
+
+Delete Material Type
+http://18.188.188.62/Logistics/deletematerial_type?material_type_id=1
+
+/////////*Material Type///////////////
+
+
+/////////*Material Unit///////////////
+Create Material Unit
+http://18.188.188.62/Logistics/create_unit?unit=kg
+
+Get All Material Unit
+http://18.188.188.62/Logistics/getallunit
+
+Get Material Unit By Id
+http://18.188.188.62/Logistics/getunit?unit_id=1
+
+Update Material Unit
+http://18.188.188.62/Logistics/updateunit?unit_id=1&unit=kg
+
+Delete Material Unit
+http://18.188.188.62/Logistics/deleteunit?unit_id=1
+
+/////////*Material Unit///////////////
+
+/////////*Vehicle///////////////
+Create Vehicle
+http://18.188.188.62/Logistics/create_vehicle?vehicle_no=MP20NB9090
+
+Get All Vehicle
+http://18.188.188.62/Logistics/getallvehicle
+
+Get Vehicle By Id
+http://18.188.188.62/Logistics/getvehicle?vehicle_id=1
+
+Update Vehicle
+http://18.188.188.62/Logistics/updatevehicle?vehicle_id=1&vehicle_no=MP20NB9090
+
+Delete Vehicle
+http://18.188.188.62/Logistics/deletevehicle?vehicle_id=1
+
+Get Loaded Vehicle
+http://smcllogistics.com/getallvehicleloaded
+
+
+Get Free Vehicle
+http://smcllogistics.com/getallvehicleunloaded
+/////////*Vehicle///////////////
+
+
+/////////*Petrol///////////////
+Create Petrol
+http://18.188.188.62/Logistics/create_petrol?vehicle_id=1&qty=10&unit_id=1&user_id=1
+
+Get All Petrol
+http://18.188.188.62/Logistics/getallpetrol?user_id=1
+
+Get Petrol By Id
+http://18.188.188.62/Logistics/getpetrol?order_id=1
+
+Update Petrol
+http://18.188.188.62/Logistics/updatepetrol?order_id=1&vehicle_id=1&qty=10&unit_id=1&user_id=1
+
+Delete Petrol
+http://18.188.188.62/Logistics/deletepetrol?order_id=1
+/////////*Petrol///////////////
+
+
+
+/////////*Loaded Material///////////////
+http://18.188.188.62/Logis tics/getLoaded_request?currentpage=1
+
+http://smcllogistics.com/getLoaded_items_by_v_no?v_no=123
+
+Loaded list by vehicle id
+http://smcllogistics.com/getLoaded_items_by_vehicle_id?vehicle_id=1
+/////////*Loaded Material///////////////
+
+
+/////////*Unloaded Material///////////////
+http://18.188.188.62/Logistics/getUnloaded_request?currentpage=1
+/////////*Unloaded Material///////////////
+
+
+/////////*getAllClient_requests///////////////
+http://18.188.188.62/Logistics/getAllClient_requests?currentpage=1
+/////////*getAllClient_requests///////////////
+
+
+/////////*Material CompareList///////////////
+http://18.188.188.62/Logistics/getCompareList?currentpage=1
+/////////*Material CompareList///////////////
+
+
+/////////*Client Request///////////////
+Get Client Request
+http://18.188.188.62/Logistics/getclient_request?user_id=1
+
+Client Request(Post Method Only use http://18.188.188.62/Logistics/client_request)
+http://18.188.188.62/Logistics/client_request?user_id=1&material_id=1&material_type_id=1&unload_qty=100&unit_id=1&address=jbp
+/////////*Client Request///////////////
+
+
+/////////*Client Unload Request///////////////
+Get Client Unload Request
+http://18.188.188.62/Logistics/getclient_unload?user_id=1
+
+
+Switch Vehicle
+http://smcllogistics.com/switch_vehicle?exist_vehicle_id=1&new_vehicle_id=2
+
+Client Unload Request(Post Method Only use http://18.188.188.62/Logistics/client_unload)
+http://18.188.188.62/Logistics/client_unload?user_id=1&material_id=1&material_type_id=1&qty=100&unit_id=1&address=jbp&vehicle_id=1
+/////////*Client Unload Request///////////////
+
+
+/////////*Supervisor Load Request///////////////
+Get Manager Unload Request
+http://18.188.188.62/Logistics/getmanager_unload?user_id=1
+
+Manager load Request(Post Method Only use http://18.188.188.62/Logistics/manager_load)
+http://18.188.188.62/Logistics/manage_load?user_id=1&material_id=1&material_type_id=1&qty=100&unit_id=1&destination_address=jbp&location_id=1&estimate_deliver_time=10hrs&vehicle_id=1
+/////////*Supervisor Load Request///////////////
+
+/***********Bijendra Sahu***************/
+
+
+ALTER TABLE `manager_request` ADD `challan_no` VARCHAR(50) NULL DEFAULT NULL AFTER `id`;
+ALTER TABLE `client_unload` ADD `challan_no` VARCHAR(50) NULL DEFAULT NULL AFTER `id`;
+
+
+ALTER TABLE `manager_request` ADD `location` VARCHAR(200) NULL DEFAULT NULL AFTER `location_id`;
+ALTER TABLE `client_unload` ADD `location` VARCHAR(200) NULL DEFAULT NULL AFTER `location_id`;
+
+ALTER TABLE `manager_request` ADD `vehicle_no` VARCHAR(200) NULL DEFAULT NULL AFTER `vehicle_id`;
+ALTER TABLE `client_unload` ADD `vehicle_no` VARCHAR(200) NULL DEFAULT NULL AFTER `vehicle_id`;
